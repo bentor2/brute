@@ -1,0 +1,11 @@
+impor  sys , os
+
+jika  sys . versi [ 0 : 3 ] !=  "3.9" :
+  sys . exit ( "[+] anda harus menggunakan versi python 3.9, versi python anda sekarang : " + sys . version [ 0 : 3 ])
+
+if  __name__  ==  "__main__" :
+  coba :
+      #os.system("git tarik")
+      __import__ ( "Brute" ). cek ()
+  kecuali  Pengecualian  sebagai  e :
+    keluar ( str ( e ))
